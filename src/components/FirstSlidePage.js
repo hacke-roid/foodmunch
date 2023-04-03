@@ -1,7 +1,7 @@
 function FirstSlidePage({click}) {
     return(
         <div>
-            Hello
+          hello
         </div>
     );
 }

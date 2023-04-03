@@ -1,9 +1,9 @@
 function SecondSlide() {
-    return(
-        <div>
-            Second Slide
-        </div>
-    );
+  return (
+    <div>
+      <a>Second Slide</a>
+    </div>
+  );
 }
 
 export default SecondSlide;

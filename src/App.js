@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <SliderPage />
-      <FirstSlidePage click={click}/>
+      <FirstSlidePage />
     </div>
   );
 }
