@@ -1,7 +1,7 @@
 function SecondSlide() {
   return (
     <div>
-      <a>Second Slide</a>
+      Second Slide
     </div>
   );
 }

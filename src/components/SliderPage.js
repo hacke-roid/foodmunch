@@ -10,15 +10,16 @@ function SliderPage() {
     event.preventDefault();
   };
 
-  const handleFirstSlide = () => {
-    console.log("clicked First slide");
+  const handleFirstSlide = (index) => {
+    if(showSlide !== index);
+    setShowSlide();
   };
 
   const handleCreate = () => {
-    setShowSlide(false);
+    setShowSlide();
   }
 
-  const handleSecondSlide = () => [console.log("clicked second slide")];
+  const handleSecondSlide = () => {console.log("clicked second slide")};
 
   return (
     <div className="container">
