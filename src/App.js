@@ -1,11 +1,18 @@
-import FirstSlidePage from "./components/FirstSlidePage";
-import SliderPage from "./components/SliderPage";
+import BannerImg from "./components/BannerImg";
+import ExploreMenu from "./components/ExploreMenu";
+import NavigationBar from "./components/NavigationBar";
+import { BrowserRouter } from "react-router-dom";
+
 
 function App() {
   return (
     <div>
-      <SliderPage />
-      <FirstSlidePage />
+    <BrowserRouter>
+     <NavigationBar/>
+     </BrowserRouter>
+     <BannerImg/>
+     <ExploreMenu/>
+     <ExploreMenu/>
     </div>
   );
 }
